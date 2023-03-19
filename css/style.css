@@ -1,0 +1,44 @@
+.my-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    padding: 20px;
+    margin: 5px;
+}
+
+.my-card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: yellow;
+}
+
+/* create card with title, icon, and description */
+
+.my-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.my-card .title {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0;
+    color: #000;
+}
+
+
+.my-card .icon {
+    width: 80px;
+    margin: 10px 0;
+}
+
+.my-card .description {
+    padding-top: 20px;
+    font-size: 1em;
+    margin: 0;
+    color: #000;
+}
